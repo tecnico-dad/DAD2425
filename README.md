@@ -19,4 +19,5 @@ The following components are included
  
  server: the code for servers
  
- util: some classes thta can be used  to collect RPC reesponses
+ util: some classes thta can be used  to collect RPC re
+ sponses
