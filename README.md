@@ -1,7 +1,7 @@
 # DAD2425
 Project course for DAD 2024-25
 
-Students are fee to improve on the following code.
+Students are free to improve on the following code.
 
 The code assumes that all servers run on the same machine. Given the
 port number of the first server, the remaining servers use consecutive
