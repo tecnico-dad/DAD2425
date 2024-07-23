@@ -57,7 +57,7 @@ The client module opens a terminal from where students may issue commands. The f
 - `tx {read_key_1} {read_key_2} {write_key}` - Takes as input 3 keys and executes a transaction with 2 reads and 1 write respectively;
 - `loop` - Runs multiple transactions, one after another, in a loop;
 - `lenght {loop-lenght}` - Defines the number of transactions executed when looping;
-- `time {sleep-range}` - Slows dows transactions by sleeping a random amount of time in sleep-range between reads and commit;
+- `time {sleep-range}` - Slows down transactions by sleeping a random amount of time in sleep-range between reads and commit;
 - `exit` - Gracefully finishes the client.
 
 ## ConsoleClient
