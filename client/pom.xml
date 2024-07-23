@@ -39,7 +39,7 @@
 		<dependency>
 			<groupId>dad2425</groupId>
 			<artifactId>dadkvs-contract</artifactId>
-			<version>v5</version>
+			<version>skeleton</version>
 		</dependency>
 		<dependency>
 			<groupId>dad2425</groupId>
