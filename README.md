@@ -53,12 +53,12 @@ A client that executes transactions. It is executed by running the following com
 
 The client module opens a terminal from where students may issue commands. The following commands are available:
 - `help` - Shows the full command list;
-- `read` - ...;
+- `read {read_key_1} ` - Reads a key (useful for debug);
 - `tx {read_key_1} {read_key_2} {write_key}` - Takes as input 3 keys and executes a transaction with 2 reads and 1 write respectively;
-- `loop` - ...
-- `lenght {loop-lenght}` - ...
-- `time {sleep-range}` - ...
-- `exit` - Gracefully finishes the client
+- `loop` - Runs multiple transactions, one after another, in a loop;
+- `lenght {loop-lenght}` - Defines the number of transaction executed when looping;
+- `time {sleep-range}` - Slows dows transactions by sleeping a random amount of time in sleep-range between reads and commit;
+- `exit` - Gracefully finishes the client.
 
 ## ConsoleClient
 
@@ -67,7 +67,11 @@ The console client servers as a front-end to issue configuration settings to ser
 `mvn exec:java`
 
 The console client opens a terminal from where students may issue configuration changes to servers. The following commands are available:
-- ... ;
+- `help` - Shows the full command list;
+- `leader on/off replica_id` - Instructs a replica to strat/stop acting as a Paxos leader;
+- `debug mode replica_id` - Activates debug on a given replica;
+- `reconfig configuration` - Executes a transaction on key 0 to change the configuration;
+- `exit` - Gracefully finishes the console.
 
 ## Protobuffs and Utils
 
