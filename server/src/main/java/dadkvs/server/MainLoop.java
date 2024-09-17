@@ -1,4 +1,4 @@
-epackage dadkvs.server;
+package dadkvs.server;
 
 import java.util.ArrayList;
 import java.util.Iterator;
